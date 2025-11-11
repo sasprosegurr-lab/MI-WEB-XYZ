@@ -7,6 +7,17 @@ body {
   background-size: cover; /* la imagen cubre toda la pantalla */
   background-position: center;
   background-attachment: fixed; /* el fondo no se mueve al hacer scroll */
+
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* capa oscura transparente */
+  z-index: -1;
+}
+
 }
 
 }
@@ -226,6 +237,7 @@ h1 {
     padding: 20px;
   }
 }
+
 
 
 
