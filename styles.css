@@ -142,5 +142,30 @@ h1 {
   color: #1565c0;
 }
 
+/* Botón de Diseño Web */
+.boton-disenoweb {
+  background: linear-gradient(90deg, #2196f3, #21cbf3); /* Degradado azul */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Animación suave */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Efecto cuando pasas el mouse por encima */
+.boton-disenoweb:hover {
+  transform: scale(1.1); /* Se agranda un poco */
+  background: linear-gradient(90deg, #21cbf3, #2196f3); /* Invierte el degradado */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Efecto al hacer clic */
+.boton-disenoweb:active {
+  transform: scale(0.95); /* Se achica un poquito */
+}
+
 
 
