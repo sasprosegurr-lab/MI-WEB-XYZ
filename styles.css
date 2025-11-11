@@ -172,6 +172,61 @@ h1 {
   transform: scale(0.95); /* Se achica un poquito */
 }
 
+/* Estilos del formulario de registro */
+.registro {
+  background: rgba(255, 255, 255, 0.85);
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.registro h2 {
+  margin-bottom: 20px;
+}
+
+.registro label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.registro input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.registro button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 15px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.registro button:hover {
+  background-color: #21cbf3;
+  transform: scale(1.05);
+}
+
+/* Adaptable a celulares */
+@media (max-width: 600px) {
+  .registro {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
 
 
 
