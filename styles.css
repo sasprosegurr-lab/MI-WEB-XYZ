@@ -97,3 +97,26 @@ footer {
   padding: 20px 10px;
   margin-top: 40px;
 }
+/* Estilos del encabezado */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-bottom: 2px solid #90caf9;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%; /* Hace el logo redondo */
+  object-fit: cover;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  color: #1565c0;
+}
+
