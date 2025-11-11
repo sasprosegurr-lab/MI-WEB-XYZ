@@ -273,6 +273,19 @@ h1 {
 }
 
 
+/* Seleccionamos específicamente los enlaces del menú principal */
+#menu-principal li a {
+  color: black !important;     /* fuerza color negro */
+  text-decoration: none;       /* quita subrayado */
+  font-weight: bold;           /* opcional */
+  transition: color 0.3s;
+}
+
+/* Efecto hover */
+#menu-principal li a:hover {
+  color: #555 !important;      /* gris oscuro al pasar el cursor */
+}
+
 
 
 
