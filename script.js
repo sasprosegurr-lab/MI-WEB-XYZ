@@ -1,3 +1,3 @@
-document.getElementById("boton").addEventListener("click", function() {
-  alert("¡Hola! Gracias por visitar mi página 😊");
+document.getElementById("boton-info").addEventListener("click", function() {
+  alert("Gracias por visitar mi web. ¡Más funciones próximamente!");
 });
