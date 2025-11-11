@@ -45,8 +45,8 @@ header {
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   margin-right: 20px;
   border-radius: 50%; /* hace el logo redondo */
   object-fit: cover; /* ajusta bien la imagen */
@@ -141,5 +141,6 @@ h1 {
   font-family: Arial, sans-serif;
   color: #1565c0;
 }
+
 
 
