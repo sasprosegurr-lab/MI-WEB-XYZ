@@ -239,6 +239,40 @@ h1 {
   }
 }
 
+/* Contenedor fijo en la parte inferior */
+.footer-botones {
+  position: fixed; /* siempre visible abajo */
+  bottom: 20px; /* separación del borde */
+  left: 50%;
+  transform: translateX(-50%); /* centrar horizontalmente */
+  display: flex;
+  gap: 15px;
+  z-index: 10; /* encima de todo */
+}
+
+/* Botones con colores diferentes */
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Colores individuales */
+.btn.rojo { background-color: #e74c3c; }
+.btn.verde { background-color: #27ae60; }
+.btn.azul { background-color: #2980b9; }
+
+/* Hover */
+.btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+
 
 
 
