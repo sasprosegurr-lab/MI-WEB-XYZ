@@ -1,14 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Mi primera página web</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Web Profesional</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>¡Hola, mundo!</h1>
-  <p>Esta es mi primera página web 😊</p>
-  <button id="boton">Haz clic aquí</button>
+  <header>
+    <h1>🌐 Mi Web Profesional</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Bienvenido a mi sitio</h2>
+    <p>Tu espacio digital para aprender, crear y crecer.</p>
+    <button id="boton-info">Saber más</button>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Diseño Web</h3>
+        <p>Creación de páginas modernas, rápidas y seguras.</p>
+      </div>
+      <div class="card">
+        <h3>Marketing Digital</h3>
+        <p>Impulsa tu presencia en redes y motores de búsqueda.</p>
+      </div>
+      <div class="card">
+        <h3>Consultoría</h3>
+        <p>Asesoramiento personalizado para tu proyecto.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <p>📧 Contáctame: ejemplo@email.com</p>
+    <p>&copy; 2025 Mi Web Profesional</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
