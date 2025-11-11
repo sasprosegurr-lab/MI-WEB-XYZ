@@ -4,6 +4,13 @@ body {
   margin: 0;
   background-color: #f4f6f9;
   color: #333;
+  body {
+  background-image: url('fondo.jpg');
+  background-size: cover; /* la imagen cubre toda la pantalla */
+  background-position: center;
+  background-attachment: fixed; /* el fondo no se mueve al hacer scroll */
+}
+
 }
 
 /* Encabezado */
@@ -166,6 +173,7 @@ h1 {
 .boton-disenoweb:active {
   transform: scale(0.95); /* Se achica un poquito */
 }
+
 
 
 
